@@ -1,3 +1,4 @@
+"use strict";
 // let message: string = 'Hello World';
 // console.log(message);
 function add(n1, n2, showresult, phrase) {
@@ -5,7 +6,7 @@ function add(n1, n2, showresult, phrase) {
     // if (typeof n1 !=='number' || typeof n2 !== "number") {
     //     throw new Error("incorrect input!..")
     // }
-    var result = n1 + n2;
+    const result = n1 + n2;
     if (showresult) {
         console.log(phrase + n1 + n2);
     }
@@ -13,9 +14,12 @@ function add(n1, n2, showresult, phrase) {
         return n1 + n2;
     }
 }
-var number1 = 10;
-var number2 = 3.9;
-var printresult = true;
-var resultphrase = 'result is::';
-var result = add(number1, number2, printresult, resultphrase);
+// const number1=10;
+// Assignment operators
+let number1;
+number1 = 4;
+const number2 = 3.9;
+const printresult = true;
+const resultphrase = 'result is::';
+const result = add(number1, number2, printresult, resultphrase);
 console.log(result);

@@ -1,28 +1,28 @@
+"use strict";
 // object
 // const person:{
 //     name : string;
 //     age : number;
 // }={
-var person = {
+const person = {
     name: "padhu",
     age: 25,
     hobby: ['drawing', 'games']
 };
 console.log(person.name, person.age);
-for (var _i = 0, _a = person.hobby; _i < _a.length; _i++) {
-    var hobby = _a[_i];
+for (const hobby of person.hobby) {
     console.log(hobby.toUpperCase());
 }
 // string
-var favcolor;
+let favcolor;
 favcolor = ["blue"];
 console.log(favcolor);
 // any 
-var favfood;
+let favfood;
 favfood = ['chicken', 12, { "paarotta": "pics" }];
 console.log(favfood);
 // tuples
-var helloo = {
+const helloo = {
     role: [4, 'priya']
 };
 helloo.role.push('adam');
