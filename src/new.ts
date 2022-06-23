@@ -52,3 +52,12 @@ const movie1 =['virus','blacksheep',...movie]
 const movie2 =['virus','blacksheep','appa']
 
 movie1.push(...movie,...movie2)
+
+
+const poor={
+    age:12,
+    nammmee:'markz',
+    module:'ratings',
+    ranks:30
+}
+const poordetails={...poor,...movie1}
